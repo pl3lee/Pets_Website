@@ -1,0 +1,20 @@
+.header-container {
+    display: flex;
+    background-color: rgb(37, 37, 107);
+    justify-content: center;
+}
+
+.header-container #logo {
+    flex: 5 1 auto;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header-container #header-link {
+    color: white;
+    font-size: medium;
+    flex: 0.5 1 auto;
+}
