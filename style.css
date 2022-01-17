@@ -75,6 +75,11 @@
     justify-content: center;
     align-items: center;
 }
+img {
+    object-fit: fill;
+    max-width: 100%;
+    max-height: 100%;
+}
 .placeholder-text {
     color: #E5E7EB;
 }
@@ -140,4 +145,13 @@
     font-weight: bold;
     text-align: right;
     font-size: 20px;
+}
+
+.section-call-to-action {
+    display: flex;
+    padding: 5% 20%;
+}
+
+.call-to-action-container {
+
 }
