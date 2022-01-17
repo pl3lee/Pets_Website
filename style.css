@@ -1,5 +1,5 @@
 * {
-    border: solid red;
+    /* border: solid red; */
 }
 .header-container {
     display: flex;
@@ -20,15 +20,16 @@
 }
 
 .header-link-container {
-    width: 30%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 #header-link {
     color: #E5E7EB;
     font-size: 18px;
     /* flex: 0.5 1 auto; */
     width: 30%;
+    text-align: right;
 }
 
 .title-block {
