@@ -113,8 +113,6 @@
 .card {
     width: 200px;
     height: 200px;
-    
-
 }
 
 .image-subtext {
@@ -122,4 +120,24 @@
     font-size: 18px;
     color: #1c212b;
     text-align: center;
+}
+
+.section-quote {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
 }
