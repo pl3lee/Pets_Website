@@ -57,8 +57,10 @@
     background-color: #3882F6;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100px;
     border-radius: 5px;
+    height: 30px;
 }
 
 .sign-up-button-text {
@@ -77,4 +79,47 @@
     color: #E5E7EB;
 }
 
+.info {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    height: 40%;
+    width: 60%;
+    justify-content: space-between;
+    
+}
+
+.card-subtext-container {
+    display: flex;
+    flex-direction: column;
+}
+.card-container {
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.image-subtext {
+    width: 200px;
+    font-size: 18px;
+    color: #1c212b;
+    text-align: center;
+}
