@@ -74,11 +74,11 @@
     height: 250px;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 img {
-    object-fit: fill;
     max-width: 100%;
-    max-height: 100%;
+    object-position: 50% 10%;
 }
 .placeholder-text {
     color: #E5E7EB;
@@ -149,9 +149,40 @@ img {
 
 .section-call-to-action {
     display: flex;
-    padding: 5% 20%;
+    padding: 5% 15%;
+    justify-content: center;
 }
 
 .call-to-action-container {
+    background-color: #3882F6;
+    width: 100%;
+    display: flex;
+    padding: 3% 10%;
+    justify-content: space-between;
+    border-radius: 5px;
+}
 
+.call-to-action-container .call-to-action-button-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.call-to-action-block {
+    width: 50%;
+}
+.call-to-action-main {
+    font-size: 24px;
+    color: white;
+}
+.call-to-action-subtext {
+    font-size: 18px;
+    color: lightgray;
+    font-weight: lighter;
+}
+
+.call-to-action-button-block .sign-up-button {
+    border: solid white;
+    border-radius: 8px;
+    border-width: 2px;
 }
