@@ -4,3 +4,6 @@
 Check it out: https://pl3lee.github.io/Pingu_Website/
 
 This is my first webpage, created with only HTML and CSS. This webpage is about Pingu the very cute penguin! The layout is a template from The Odin Project.
+# Built With
+- HTML
+- CSS
